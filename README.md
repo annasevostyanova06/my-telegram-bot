@@ -13,4 +13,4 @@ A Python-based Telegram bot that provides programming advice and quotes.
 - Deployed on Render.com
 
 ## Live Demo
-Bot is running 24/7 on Render: @YourBotName
+Bot is running 24/7 on Render: @ByteMABuddyBot
