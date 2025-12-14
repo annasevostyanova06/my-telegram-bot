@@ -13,7 +13,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Send welcome message when command /start is issued."""
     user = update.effective_user
     await update.message.reply_html(
-        f"Hi {user.mention_html()}! I'm your first portfolio bot.\n"
+        f"Hi {user.mention_html()}! I'm your programming companion 🤖\n"
         f"Available commands:\n"
         f"/start - show this message\n"
         f"/help - get help\n"
@@ -72,4 +72,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
